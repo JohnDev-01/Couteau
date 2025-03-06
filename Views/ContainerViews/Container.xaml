@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Tarea6_Couteau.Views.ContainerViews.Container"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Tarea6_Couteau.Views.ContainerViews.Container"
             xmlns:containerViews="clr-namespace:Tarea6_Couteau.Views.ContainerViews"
             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
             android:TabbedPage.ToolbarPlacement="Bottom"
             BarBackgroundColor="Black"
             UnselectedTabColor="WhiteSmoke">
     <containerViews:GeneroPage IconImageSource="gender.png"
-                               Title="Genero"
-                              />
+                               Title="Genero" />
     <containerViews:Edad IconImageSource="growth.png"
                          Title="Edad" />
     <containerViews:UniversidadPage IconImageSource="mortarboard.png"
-                         Title="Universidad" />
+                                    Title="Universidad" />
+    <containerViews:ClimaPage IconImageSource="clima.png"
+                                    Title="Clima" />
 </TabbedPage>
