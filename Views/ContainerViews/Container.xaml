@@ -5,7 +5,11 @@
             xmlns:containerViews="clr-namespace:Tarea6_Couteau.Views.ContainerViews"
             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
             android:TabbedPage.ToolbarPlacement="Bottom"
-            BarBackgroundColor="Black">
+            BarBackgroundColor="Black"
+            UnselectedTabColor="WhiteSmoke">
     <containerViews:GeneroPage IconImageSource="gender.png"
-                               Title="Genero"/>
+                               Title="Genero"
+                              />
+    <containerViews:Edad IconImageSource="growth.png"
+                         Title="Edad" />
 </TabbedPage>

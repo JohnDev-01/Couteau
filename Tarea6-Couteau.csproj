@@ -65,6 +65,9 @@
 	  <MauiXaml Update="Views\ContainerViews\Container.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ContainerViews\Edad.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ContainerViews\GeneroPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
