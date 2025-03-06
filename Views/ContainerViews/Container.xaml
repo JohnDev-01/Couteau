@@ -15,4 +15,6 @@
                                     Title="Universidad" />
     <containerViews:ClimaPage IconImageSource="clima.png"
                                     Title="Clima" />
+    <containerViews:PokemonPage IconImageSource="pokeball.png"
+                              Title="Pokemon" />
 </TabbedPage>
