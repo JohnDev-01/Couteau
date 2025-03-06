@@ -7,6 +7,8 @@
             android:TabbedPage.ToolbarPlacement="Bottom"
             BarBackgroundColor="Black"
             UnselectedTabColor="WhiteSmoke">
+    <containerViews:AcercaDeMi IconImageSource="user.png"
+                               Title="Acerca de mi" />
     <containerViews:GeneroPage IconImageSource="gender.png"
                                Title="Genero" />
     <containerViews:Edad IconImageSource="growth.png"

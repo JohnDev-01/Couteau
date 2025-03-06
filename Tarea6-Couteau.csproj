@@ -62,6 +62,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\ContainerViews\AcercaDeMi.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ContainerViews\ClimaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
