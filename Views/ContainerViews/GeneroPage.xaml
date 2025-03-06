@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea6_Couteau.Views.ContainerViews.GeneroPage"
+             BackgroundColor="#191919">
+    <VerticalStackLayout Padding="30"
+                         Spacing="20">
+        <Label Text="Predicción de Género"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="White" />
+        <Entry x:Name="NameEntry"
+               Placeholder="Ingrese un nombre"
+               FontSize="18"
+               TextColor="White"
+               BackgroundColor="#333"
+               PlaceholderColor="Gray"
+               HorizontalOptions="Fill" />
+        <Button Text="Predecir"
+                FontSize="18"
+                BackgroundColor="#6200EA"
+                TextColor="White"
+                Clicked="OnPredictGenderClicked" />
+        <Label x:Name="ResultLabel"
+               Text="Esperando resultado..."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>
