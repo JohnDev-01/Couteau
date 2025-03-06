@@ -80,6 +80,9 @@
 	  <MauiXaml Update="Views\ContainerViews\UniversidadPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ContainerViews\WordpressPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Presentation.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

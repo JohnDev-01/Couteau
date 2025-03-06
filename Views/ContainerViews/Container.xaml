@@ -17,4 +17,6 @@
                                     Title="Clima" />
     <containerViews:PokemonPage IconImageSource="pokeball.png"
                               Title="Pokemon" />
+    <containerViews:WordpressPage IconImageSource="pokeball.png"
+                                Title="Worpress" />
 </TabbedPage>
