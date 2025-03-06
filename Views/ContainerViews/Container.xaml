@@ -12,4 +12,6 @@
                               />
     <containerViews:Edad IconImageSource="growth.png"
                          Title="Edad" />
+    <containerViews:UniversidadPage IconImageSource="mortarboard.png"
+                         Title="Universidad" />
 </TabbedPage>
