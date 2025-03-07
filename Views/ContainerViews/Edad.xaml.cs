@@ -47,12 +47,12 @@ public partial class Edad : ContentPage
             else if (age < 60)
             {
                 category = "Adulto 👨‍💼";
-                imageUrl = "couple.png"; // Reemplaza con la imagen correspondiente
+                imageUrl = "couple.png"; 
             }
             else
             {
                 category = "Anciano 👴";
-                imageUrl = "don.png"; // Reemplaza con la imagen correspondiente
+                imageUrl = "don.png";
             }
 
             ResultLabel.Text = $"Edad estimada de {name}: {age} años ({category})";

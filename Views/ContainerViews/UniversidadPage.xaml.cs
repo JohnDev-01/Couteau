@@ -60,10 +60,10 @@ public partial class UniversidadPage : ContentPage
 
     public class University
     {
-        public string Name { get; set; } // Mapea 'name'
-        public string[] Domains { get; set; } // Mapea 'domains'
-        public string[] web_pages { get; set; } // Mapea 'web_pages'
-        public string Domain { get; set; } // Extrae el primer dominio
-        public string WebPage { get; set; } // Extrae el primer enlace web
+        public string Name { get; set; } 
+        public string[] Domains { get; set; } 
+        public string[] web_pages { get; set; } 
+        public string Domain { get; set; }
+        public string WebPage { get; set; }
     }
 }

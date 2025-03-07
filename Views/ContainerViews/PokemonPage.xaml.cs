@@ -31,11 +31,9 @@ public partial class PokemonPage : ContentPage
         {
             var pokemonData = await _apiService.GetAsync<PokemonResponse>(apiUrl);
 
-            // Mostrar nombre y experiencia base
             PokemonNameLabel.Text = pokemonData.Name.ToUpper();
             BaseExperienceLabel.Text = $"Experiencia Base: {pokemonData.BaseExperience}";
 
-            // Verifica si la URL de la imagen es valida antes de asignarla
             if (!string.IsNullOrEmpty(pokemonData.Sprites?.FrontDefault))
             {
                 PokemonImage.Source = ImageSource.FromUri(new Uri(pokemonData.Sprites.FrontDefault));
@@ -48,14 +46,12 @@ public partial class PokemonPage : ContentPage
             }
 
 
-            // Actualizar lista de habilidades
             Abilities.Clear();
             foreach (var ability in pokemonData.Abilities)
             {
                 Abilities.Add(ability.Ability.Name.ToUpper());
             }
 
-            // Mostrar elementos
             PokemonImage.IsVisible = true;
             PokemonNameLabel.IsVisible = true;
             BaseExperienceLabel.IsVisible = true;

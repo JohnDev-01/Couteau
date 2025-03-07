@@ -25,7 +25,6 @@ public partial class AcercaDeMi : ContentPage
     {
         try
         {
-            // Asegurar que la URL está bien codificada
             string encodedUrl = Uri.EscapeUriString(ImageUrl);
             ProfileImage.Source = ImageSource.FromUri(new Uri(encodedUrl));
         }
